@@ -77,7 +77,7 @@ class ReversiStub(ReversiBase):
             return []
 
         if self._grid[0][1] is None:
-            return [0, 1]
+            return [1, 2]
         else:
             return [self._grid[0][1]]
 
