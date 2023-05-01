@@ -66,7 +66,7 @@ def test_create_3():
 
     assert len(grid) == 20
 
-    othello_pos = [(9, 9, 2), (9, 10, 1), (9, 10, 1), (10, 10, 2)]
+    othello_pos = [(9, 9, 2), (9, 10, 1), (10, 9, 1), (10, 10, 2)]
 
     for r, row in enumerate(grid):
         assert len(row) == 20
